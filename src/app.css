@@ -1,0 +1,22 @@
+.page {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 1500px;
+  width: 100%;
+}
+.dark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #111;
+  height: 100vh;
+  transition: 0.5;
+}
+.light {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f2f2;
+  height: 100vh;
+  transition: 0.5;
+}
